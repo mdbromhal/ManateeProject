@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<!--        maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"-->
+
+<?import javafx.scene.control.Button?>
+<Pane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manateefinal.ManateeController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Map2.jpg" />
+         </image>
+      </ImageView>
+      <Button  fx:id="helpButton" layoutX="800.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Help" />
+      <RadioButton fx:id="loc1button" mnemonicParsing="false" />
+      <RadioButton fx:id="loc2button" mnemonicParsing="false" />
+      <RadioButton fx:id="loc3button" mnemonicParsing="false" />
+
+   </children>
+</Pane>
